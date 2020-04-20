@@ -14,7 +14,7 @@ entries:
     name: wikijs
     type: application
     urls:
-    - https://chtelf.github.io/helm-charts/wikijs2/wikijs-0.1.1.tgz
+    - https://chtelf.github.io/helm-charts/wikijs-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 2.2.51
@@ -29,6 +29,6 @@ entries:
     name: wikijs
     type: application
     urls:
-    - https://chtelf.github.io/helm-charts/wikijs2/wikijs-0.1.0.tgz
+    - https://chtelf.github.io/helm-charts/wikijs-0.1.0.tgz
     version: 0.1.0
 generated: "2020-04-17T13:15:29.450141695Z"
