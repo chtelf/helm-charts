@@ -1,0 +1,11 @@
+apiVersion: v2
+appVersion: 2.2.51
+dependencies:
+- condition: postgres.enabled
+  name: postgresql
+  repository: https://kubernetes-charts.storage.googleapis.com/
+  version: 8.6.4
+description: A Helm chart for wikijs
+name: wikijs
+type: application
+version: 0.1.1

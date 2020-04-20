@@ -1,0 +1,16 @@
+{{- if .Values.ingress.enabled -}}
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: {{ include "wikijs.fullname" . }}
+  labels:
+    {{- include "wikijs.labels" . | nindent 4 }}
+spec:
+  rules:
+  - host: {{ .Values.ingress.host }}
+    http:
+      paths:
+      - backend:
+          serviceName: {{ include "wikijs.fullname" . }}
+          servicePort: {{ .Values.service.port }}
+{{- end }}
