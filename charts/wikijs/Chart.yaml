@@ -6,6 +6,7 @@ dependencies:
   repository: https://kubernetes-charts.storage.googleapis.com/
   version: 8.6.4
 description: A Helm chart for wikijs
+home: https://chtelf.github.io/helm-charts/
 name: wikijs
 type: application
-version: 0.1.2
+version: 0.1.3
