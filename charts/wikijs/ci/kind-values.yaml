@@ -41,4 +41,4 @@ postgresql:
  postgresqlPassword: wikijsrocks
  postgresqlDatabase: wiki
  persistence:
-  enabled: true
+  enabled: false
