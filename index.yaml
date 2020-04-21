@@ -3,6 +3,22 @@ entries:
   wikijs:
   - apiVersion: v2
     appVersion: 2.2.51
+    created: "2020-04-21T13:52:06.972267262Z"
+    dependencies:
+    - condition: postgres.enabled
+      name: postgresql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 8.6.4
+    description: A Helm chart for wikijs
+    digest: 3988b7f03a2edb9252de0208f337bd0b9778731cb92bc7ee43317feeaf00bbfb
+    home: https://chtelf.github.io/helm-charts/
+    name: wikijs
+    type: application
+    urls:
+    - https://github.com/chtelf/helm-charts/releases/download/wikijs-0.1.3/wikijs-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 2.2.51
     created: "2020-04-20T14:12:24.659136558Z"
     dependencies:
     - condition: postgres.enabled
