@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
  repository: requarks/wiki
- tag : 2
+ tag: 2
 
 nameOverride: ""
 fullnameOverride: ""
@@ -21,11 +21,11 @@ ingress:
 
 resources:
  limits:
-    cpu: 1000m
-    memory: 512Mi
+  cpu: 1000m
+  memory: 512Mi
  requests:
-    cpu: 1000m
-    memory: 512Mi
+  cpu: 1000m
+  memory: 512Mi
 
 dbConnect:
  dbType: postgres
@@ -41,4 +41,4 @@ postgresql:
  postgresqlPassword: wikijsrocks
  postgresqlDatabase: wiki
  persistence:
-    enabled: false
+  enabled: false
