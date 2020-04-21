@@ -19,14 +19,6 @@ ingress:
  enabled: true
  host: wikijs.wiki.js
 
-#resources:
-# limits:
-#  cpu: 1000m
-#  memory: 512Mi
-# requests:
-#  cpu: 1000m
-#  memory: 512Mi
-
 dbConnect:
  dbType: postgres
  dbHost: wikijs-postgresql
